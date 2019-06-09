@@ -19,7 +19,7 @@ nav{
 	text-align:center;
 }
 nav ul{
-	margin:20px auto;
+	margin:20px auto 0;
 	padding:0;
 	text-align: center;
 	width:80%;
@@ -33,7 +33,7 @@ nav ul li{
 	border-top:solid 3px orange;
 	margin:0 auto;
 	padding-top:5px;
-	
+	width:20%;
 	min-width:10px;
 	background:white;
 	border-right:solid 3px silver;
@@ -47,27 +47,27 @@ nav ul li a{
 nav ul li:not(:last-child){
 	border-right:solid 3px silver;
 }*/
-
-
-nav a:visited{
-	color:#00ccff;
-}
-nac ul li.current a{
-	color:yellow;
-	border-bottom:solid 3px red;;
+nav a.current{
+	color:#00B0F0;
 }
 nav a:hover{
 	color:red;
 	font-weight:bold;
 	border:solid 1px black;
 }
+nav a:visited{
+	color:#00ccff;
+}
+.current{
+	color:red;
+}
 /* 終わり */
 nav ul{
 	margin:10px auto;
-	width:90%;
+	width:100%;
 }
 nav ul li{
-	width:23%;
+	width:20%;
 }
 .wrapper{
 	margin:1% auto;
