@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>javascript test page</title>
+
+        <!-- import css file -->
+        <LINK rel="stylesheet" type="text/css" href="./jstest.css">
+    </head>
+    <body>
+        <header>
+            <div id="headimg">
+                <img src="./pic/header1.jpg" alt="could not load image file.">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li class="current"><a href="./page.html">Top</a></li>
+                <li><a href="#">javascript</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="#">test2</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper" >
+            <div class="main">
+                <h1 id="dai">Javascript test</h1>
+                <div id="time" onload="getDate()">date:06/09/2019 日付</div>
+                <div class="mainstr">
+                    inpu　動作確認<br>
+                    <input type="button" value="クリックするな" onclick="sample()"><br><br>
+                    button　動作確認<br>
+                    <button type="button" onclick="getDate()">クリックで日付</button>
+                    <br>
+                    <button id="button1" type="button" onclick="sampletest()" >動作てスと</button>
+                    <ul id="list">リスト
+                        <li id="child">aiueo</li>
+                        <li>bbbb</li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p>Copyright poyon</p>
+        </footer>
+        <!-- import javascript -->
+        <script type="text/javascript" src="./test.js" charset="utf-8"></script>
+    </body>
+</html>
