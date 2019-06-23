@@ -1,0 +1,28 @@
+.wrapper{
+    overflow:hidden;
+}
+
+.contents, .side-contents{
+    background:white;
+    padding:0 20px;
+}
+.contents{
+    float: left;
+    width: calc( 65% - 40px);
+    margin:1% 0.5% 1% 1%;
+
+}
+.side-contents{
+    float: right;
+    width: calc(32% - 40px);
+    margin: 1% 1% 1% 0.5%;
+}
+
+@media screen and (max-width:600px){
+    .contents, .side-contents{
+        float: none;
+        width: calc(100% - 20px);
+        padding: 0 10px;
+        margin:2% 0;
+    }
+}
