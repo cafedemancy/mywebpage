@@ -2,6 +2,9 @@
     overflow:hidden;
 }
 
+.in-webtitle{
+
+}
 .contents, .side-contents{
     background:white;
     padding:0 20px;
@@ -19,7 +22,7 @@
 }
 
 @media screen and (max-width:600px){
-    .contents, .side-contents{
+   .contents, .side-contents{
         float: none;
         width: calc(100% - 20px);
         padding: 0 10px;

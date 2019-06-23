@@ -87,7 +87,13 @@ body header .header-string{
 }
 /*nav box end*/
 
-
+/**/
+.webtitle{
+    background: #6495ed;
+    margin:1% 1% 0%;
+    padding:20px;
+    color: white;
+}
 
 /*contents config*/
 .containers{
@@ -126,7 +132,7 @@ body header .header-string{
     width:100px;
 }
 .twitter {
-    background-color: #008DDE;
+    background-color: royalblue;
 
     display: inline-block;
     position: relative;
@@ -140,7 +146,7 @@ body header .header-string{
     padding: 14px 80px;
 }
 .twitter:hover {
-    background-color: #1397D8;
+    background-color: #1397C0;
 }
 
 /*footer config*/
@@ -177,6 +183,16 @@ footer{
     min-width:120px;
     padding:3px 0;
 }
+.in-nav li a{
+    text-decoration:none;
+}
+.in-nav li a:visited{
+    color:white;
+}
+.in-nav li a:hover{
+    color: #E71B1F;
+}
+
 /*end*/
 
 /*drawer config*/
@@ -246,6 +262,7 @@ footer{
     }
     /*Optimize for smart phones*/
     .title{
+        padding: 5px 0;
         height:30px;
     }
     .in-title{
@@ -269,11 +286,15 @@ footer{
     #slideshow{
         width: 100%;
     }
+    .webtitle{
+        margin:0;
+        padding: 10px;
+    }
     .contents, .side-contents{
         margin:2% 0;
         border-radius:0px;
     }
     .social a{
-        width: 45%;
+        width: calc(100% - 162px);
     }
 }
