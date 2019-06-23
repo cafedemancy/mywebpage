@@ -1,5 +1,5 @@
 初めてつくったやつ↓
-画像設置してないので読み込み不可<br>
+レポジトリぶっこわれました読み込み不可
 https://cafedemancy.github.io/mywebpage/page.html
 
 改良版
